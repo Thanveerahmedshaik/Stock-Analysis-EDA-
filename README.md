@@ -74,7 +74,7 @@ We need to get data using yahoo finance.We will get stock information for the fo
     JPM = yf.download('JPM', start, end)          #JPMorgan Chase
     MS = yf.download('MS', start, end)            #MorganStanley
     WFC = yf.download('WFC', start, end)          #WellsFargo
-```python
+```
 
 #### Create a list of ticker symbols(as strings) in alphabetical order. Call this list: tickers.
 
