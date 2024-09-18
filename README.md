@@ -59,6 +59,33 @@ We need to get data using yahoo finance.We will get stock information for the fo
 3. Figure out how to use yfinance to grab info on the stock
 
 
+```python
+
+   start = dt.date(year = 2006, month = 1 , day = 1)
+   end = dt.date(2016,1,1)
+   
+```
+
+```python
+    #pull the stock information from yfinanc
+    #Process: create a df(BAC)->pull data using yf library
+
+    BAC = yf.download('BAC', start, end)          #Bank of America
+    C = yf.download('C', start, end)              #Citigroup
+    GS = yf.download('GS', start, end)            #Goldmansachs
+    JPM = yf.download('JPM', start, end)          #JPMorgan Chase
+    MS = yf.download('MS', start, end)            #MorganStanley
+    WFC = yf.download('WFC', start, end)          #WellsFargo
+```python
+
+#### Create a list of ticker symbols(as strings) in alphabetical order. Call this list: tickers.
+
+```python
+    tickers = 'BAC C GS JPM MS WFC'.split()
+    tickers
+```
+
+
 
 
 
