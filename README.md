@@ -33,12 +33,10 @@ We will focus on some US bank stocks and see how they progressed thoughtout the 
 ### Cufflinks connects pandas dataframe with plotly library and helps to run the visualizations directly
 
 
-```
-
+```python
     import plotly 
     import cufflinks as cf
     cf.go_offline()
-
 ```
 
 ### Data
