@@ -17,7 +17,7 @@ We will focus on some US bank stocks and see how they progressed thoughtout the 
 
 
 
-### Import the important libraries:
+#### Import the important libraries:
 
 ```python
     import numpy as np
@@ -41,7 +41,7 @@ We will focus on some US bank stocks and see how they progressed thoughtout the 
 
 ```
 
-###Data
+### Data
 We need to get data using yahoo finance.We will get stock information for the following banks:
 
 - Bank of America
