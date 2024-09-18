@@ -19,7 +19,7 @@ We will focus on some US bank stocks and see how they progressed thoughtout the 
 
 ### Import the important libraries:
 
-```
+```python
     import numpy as np
     import pandas as pd 
     import matplotlib.pyplot as plt
