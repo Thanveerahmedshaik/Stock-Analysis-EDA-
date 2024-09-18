@@ -16,6 +16,9 @@ In this project we will focus in exploratory data analysis of stock prices.Keep 
 We will focus on some US bank stocks and see how they progressed thoughtout the financial crisis of 2016. Then do a quick comparison with last 10 years data.
 
 
+$$
+r_t = \frac{P_t - P_{t-1}}{ P_t-1} = \frac{P_t}{P_{t-1}}-1 
+$$
 
 #### Import the important libraries:
 
